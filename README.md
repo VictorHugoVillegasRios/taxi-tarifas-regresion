@@ -62,8 +62,12 @@ Este modelo demuestra que, con variables básicas, es posible predecir de forma 
 
 ## 📌 Autor
 
-**Nombre**: (tu nombre aquí)  
-**Contacto**: (email o LinkedIn)
+
+## 📌 Autor
+**Nombre:** Víctor Hugo Villegas Ríos  
+**Contacto:**  
+- [LinkedIn](https://www.linkedin.com/in/victorhugovillegasrios/)  
+- [Instagram](https://www.instagram.com/dataconsultor.freelancer/)  
 
 ---
 
