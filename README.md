@@ -11,7 +11,6 @@ Este proyecto incluye documentación técnica y ejecutiva que resume el proceso 
 📥 Acceso directo:
 
 * 👉 [Informe Técnico](./docs/informe_tecnico_regresion_taxi.pdf)
-* 👉 [Presentación Ejecutiva](./docs/Informe_Ejecutivo_Prediccion_Taxi.pptx)
 
 ---
 
