@@ -1,73 +1,111 @@
-# 🚖 Predicción de Tarifas de Taxi en Nueva York con Regresión Lineal
+# 🚖 Predicción de Tarifas de Taxi en Nueva York
 
-Este proyecto desarrolla un modelo de regresión lineal para predecir el **monto total de un viaje en taxi** en Nueva York, utilizando variables operacionales como la **distancia** y la **duración** del viaje.
-
----
-
-## 📌 Objetivo
-
-Predecir el valor de `total_amount` (tarifa total pagada) en un viaje de taxi, a partir de:
-
-- `trip_distance`: distancia recorrida (en millas)
-- `trip_duration`: duración del viaje (en minutos)
+Modelo de regresión lineal desarrollado en Python para predecir el costo total de viajes en taxi en Nueva York, utilizando variables operacionales clave como distancia y duración del viaje.
 
 ---
 
-## 🧰 Herramientas utilizadas
+## 📄 Documentación Ejecutiva
 
-- Python 3.x  
-- Bibliotecas: `pandas`, `scikit-learn`, `matplotlib`, `seaborn`, `joblib`
-- Jupyter Notebook / VSCode
+Este proyecto incluye documentación técnica y ejecutiva que resume el proceso de modelado y los principales resultados obtenidos.
 
----
+📥 Acceso directo:
 
-## 🛠️ Flujo del Proyecto
-
-1. **Carga del dataset limpio**
-2. **Selección de variables predictoras**
-3. **División en entrenamiento y prueba**
-4. **Entrenamiento del modelo de regresión lineal**
-5. **Evaluación del modelo** con MAE, MSE y R²
-6. **Visualización de errores**
-7. **Exportación de predicciones** y guardado del modelo
+* 👉 [Informe Técnico](./docs/informe_tecnico_regresion_taxi.pdf)
+* 👉 [Presentación Ejecutiva](./docs/Informe_Ejecutivo_Prediccion_Taxi.pptx)
 
 ---
 
-## 📈 Resultados del modelo
+## 🎯 Objetivo
 
-- Coeficientes:
-  - `trip_distance`: +1.81 USD
-  - `trip_duration`: +0.44 USD
-- Intercepto: 3.80
-- R²: 0.91 → excelente capacidad explicativa
-- MAE: 1.04 | MSE: 1.77
+Predecir el valor de **total_amount** (tarifa total del viaje) a partir de:
+
+* 📏 `trip_distance`: distancia recorrida (millas)
+* ⏱️ `trip_duration`: duración del viaje (minutos)
 
 ---
 
-## 📂 Archivos incluidos
+## 🛠️ Tecnologías Utilizadas
 
-- `modelo_regresion_taxi.py`: script con todo el código.
-- `modelo_regresion_taxi.pkl`: modelo entrenado guardado con `joblib`.
-- `predicciones_taxi.csv`: archivo con todas las predicciones generadas.
-- `informe_tecnico_regresion_taxi.pdf`: informe técnico del proceso.
-- `Informe_Ejecutivo_Prediccion_Taxi.pptx`: presentación ejecutiva (opcional).
+* **Python 3.x**
+
+  * Pandas
+  * Scikit-learn
+  * Matplotlib
+  * Seaborn
+  * Joblib
+
+* **Entorno de desarrollo**
+
+  * Jupyter Notebook / VSCode
+
+---
+
+## ⚙️ Flujo del Proyecto
+
+1. Carga y preparación del dataset
+2. Selección de variables predictoras
+3. División en conjuntos de entrenamiento y prueba
+4. Entrenamiento del modelo de regresión lineal
+5. Evaluación del modelo (MAE, MSE, R²)
+6. Visualización de resultados
+7. Exportación de predicciones y modelo
+
+---
+
+## 📊 Resultados del Modelo
+
+* **Coeficientes:**
+
+  * trip_distance: +1.81 USD
+  * trip_duration: +0.44 USD
+
+* **Intercepto:** 3.80
+
+* **Métricas:**
+
+  * R²: 0.91
+  * MAE: 1.04
+  * MSE: 1.77
+
+📌 El modelo presenta una alta capacidad explicativa, demostrando que variables operacionales simples pueden capturar gran parte del comportamiento de las tarifas.
+
+---
+
+## 📂 Estructura del Repositorio
+
+* `/data` → Datos utilizados
+* `/modelos` → Modelo entrenado y predicciones
+* `/docs` → Documentación (PDF / PPT)
+* `modelo_regresion_taxi.py` → Script principal
 
 ---
 
 ## 🧠 Conclusiones
 
-Este modelo demuestra que, con variables básicas, es posible predecir de forma eficiente las tarifas de taxi. El flujo implementado es fácilmente escalable para aplicaciones reales.
+El modelo desarrollado demuestra que es posible predecir con alta precisión el costo de un viaje de taxi utilizando variables básicas.
+
+Este enfoque es escalable y puede ser aplicado en:
+
+* Sistemas de predicción de tarifas
+* Optimización de rutas
+* Plataformas de movilidad
 
 ---
 
-## 📌 Autor
+## 🧑‍💻 Autor
 
+**Víctor Hugo Villegas Ríos**
+Consultor Freelance en Análisis y Ciencia de Datos
 
-## 📌 Autor
-**Nombre:** Víctor Hugo Villegas Ríos  
-**Contacto:**  
-- [LinkedIn](https://www.linkedin.com/in/victorhugovillegasrios/)  
-- [Instagram](https://www.instagram.com/dataconsultor.freelancer/)  
+🔗 LinkedIn:
+https://www.linkedin.com/in/victorhugovillegasrios/
 
 ---
+
+## 🎯 Contexto del Proyecto
+
+Este proyecto fue desarrollado como parte del proceso de formación en el programa de Google Data Analytics, representando un caso práctico de aplicación de modelos predictivos en ciencia de datos.
+
+---
+
 
